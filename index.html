@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit | Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Placeholder for FA, using CDN usually requires a kit but I'll use a public text for now or SVG icons if this fails, actually I will use embedded SVGs or a standard CDN if possible, but let's stick to standard unicode or simple CSS shapes if I don't have a specific kit. Better yet, I will use a reliable CDN for icons or just SVGs. I'll use Phosphor Icons via CDN for a modern look. -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-clipart/20250111/original/pngtree-s-letter-logo-on-red-circle-shape-background-vector-png-image_12997344.png" type="image/x-icon">
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <header class="header">
+        <a href="#hero" class="logo">Sumit<span class="dot">.</span></a>
+        
+        <nav class="navbar">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="bx bx-menu" id="menu-icon"><i class="ph ph-list"></i></div>
+    </header>
+
+    <section class="home" id="hero">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sumit</h1>
+            <h3>And I'm a <span class="text-animate"></span></h3>
+            <p>I build immersive and attractive web experiences with modern technologies. Let's create something specific and amazing together.</p>
+            <div class="social-media">
+                <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                <a href="#"><i class="ph ph-twitter-logo"></i></a>
+                <a href="https://www.instagram.com/sumit_x_sgh/?igsh=MjZ4Y3l4N25vZjFy" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+                <a href="https://www.linkedin.com/in/sumit-singh-25023b368/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="assets/Profile image.jpg" alt="Sumit Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span class="highlight">Me</span></h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="assets/Profile image.jpg" alt="About Me">
+                <span class="circle-spin"></span>
+            </div>
+            <div class="about-text">
+                <h3>Frontend Developer!</h3>
+                <p>I am a passionate developer with a keen eye for design and a drive to create seamless digital experiences. I specialize in HTML, CSS, and JavaScript, bringing static designs to life with dynamic animations and responsive layouts. My goal is to build websites that are not only functional but also visually stunning.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span class="highlight">Skills</span></h2>
+        
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Web Development <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Graphic Design <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SEO <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="projects">
+        <h2 class="heading">Latest <span class="highlight">Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="assets/project1.svg" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="ph ph-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/project2.svg" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>Web App</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="ph ph-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/project3.svg" alt="Project 3">
+                <div class="portfolio-layer">
+                    <h4>Branding</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="ph ph-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span class="highlight">Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="brand">
+            <a class="logo" href="#hero">Sumit<span class="dot">.</span></a>
+            <p class="footer-desc">Frontend developer crafting accessible and performant experiences. Available for freelance & remote opportunities.</p>
+            <div class="links">
+                <a href="#projects">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="contact-panel">
+            <h4>Contact</h4>
+            <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+            <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+            <div class="social small">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="newsletter">
+            <h4>Quick message</h4>
+            <p>Send a short message and I'll reply shortly.</p>
+            <form id="footer-contact" aria-label="Quick contact form">
+                <input type="email" name="femail" placeholder="Your email" required style="padding:0.8rem;border-radius:6px;width:100%;margin-bottom:0.6rem;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit">
+                <textarea name="fmsg" rows="3" placeholder="Short message" required style="padding:0.8rem;border-radius:6px;width:100%;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit"></textarea>
+                <div style="margin-top:.6rem"><button type="submit" class="btn">Send</button></div>
+            </form>
+            <p style="font-size:.9rem;opacity:.8;margin-top:.6rem">© 2025 Sumit — All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
